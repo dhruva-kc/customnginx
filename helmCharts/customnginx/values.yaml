@@ -3,7 +3,7 @@
 replicas: 3
 image:
   name: dhruvakc/customnginx
-  version: v1
+  version: v2
 containerPort: 80
 
 # Service
