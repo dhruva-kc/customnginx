@@ -1,0 +1,19 @@
+# Deployment
+
+replicas: 3
+image:
+  name: dhruvakc/customnginx
+  version: v1
+containerPort: 80
+
+# Service
+
+type: NodePort
+port: 80
+nodePort: 31000
+
+# Namespace
+
+namespace:
+  enabled:
+  name:
